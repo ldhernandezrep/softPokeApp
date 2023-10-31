@@ -9,7 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- Fondo blanco (30% de la pantalla) -->
         <LinearLayout
             android:id="@+id/whiteBackground"
             android:layout_width="0dp"
@@ -24,7 +23,6 @@
 
         </LinearLayout>
 
-        <!-- Fondo morado (70% de la pantalla) -->
         <LinearLayout
             android:id="@+id/purpleBackground"
             android:layout_width="0dp"
