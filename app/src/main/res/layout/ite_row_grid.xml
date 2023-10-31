@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnyGrid"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:background="#AFDEDD"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="10dp">
+
+    <ImageView
+        android:id="@+id/imvPokemon"
+        android:layout_width="100dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_list"
+        android:layout_gravity="center"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/tvNamePokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Pokemon"
+        android:textColor="#000000" />
+
+</LinearLayout>

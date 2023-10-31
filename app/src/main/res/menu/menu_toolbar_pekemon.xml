@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Buscar"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/action_list"
+        android:icon="@drawable/ic_list"
+        android:iconTint="#FFFFFF"
+        android:title="Otro"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_grid"
+        android:icon="@drawable/ic_grid_white"
+        android:iconTint="#FFFFFF"
+        android:title="Otro"
+        app:showAsAction="always" />
+
+
+</menu>
